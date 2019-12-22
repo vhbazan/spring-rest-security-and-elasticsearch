@@ -1,4 +1,4 @@
-package com.vhbazanm.App.com.vhbazanm.model;
+package com.vhbazanm.model;
 
 import java.util.Date;
 

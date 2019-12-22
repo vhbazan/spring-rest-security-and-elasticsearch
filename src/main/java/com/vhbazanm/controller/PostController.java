@@ -1,6 +1,6 @@
-package com.vhbazanm.App.controller;
+package com.vhbazanm.controller;
 
-import com.vhbazanm.App.com.vhbazanm.model.Post;
+import com.vhbazanm.model.Post;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
