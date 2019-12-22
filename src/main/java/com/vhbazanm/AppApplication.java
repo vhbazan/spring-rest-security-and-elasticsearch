@@ -38,6 +38,8 @@ public class AppApplication implements CommandLineRunner {
 		Post newPost = new Post("234", "My first Post", "Post details", tags, "vhbazanm", new Date());
 
 		postService.save(newPost);
+
+		System.out.println(postService.findAll());
 	}
 
 
