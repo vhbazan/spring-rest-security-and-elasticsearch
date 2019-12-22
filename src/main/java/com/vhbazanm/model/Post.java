@@ -1,7 +1,10 @@
 package com.vhbazanm.model;
 
+import org.springframework.data.elasticsearch.annotations.Document;
+
 import java.util.Date;
 
+@Document(indexName = "#{@getPostIndexName}", type = "content")
 public class Post {
 
     private String id;
