@@ -7,5 +7,10 @@ public interface PostService {
 
     public Post save(Post post);
 
+
     public Page<Post> findAll();
+
+    void deleteById(String id);
+
+    Post findById(String id);
 }

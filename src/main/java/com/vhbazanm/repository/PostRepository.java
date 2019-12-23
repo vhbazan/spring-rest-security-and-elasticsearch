@@ -9,6 +9,8 @@ public interface PostRepository extends ElasticsearchRepository<Post, String> {
 
     Page<Post> findAll();
 
+
+
     Page<Post> findByTitle(String title, Pageable pageable);
 
 
